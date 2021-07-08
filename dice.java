@@ -16,6 +16,12 @@ public class dice{
     System.out.println("dice 2 : " + y);
     int sum_num = x + y;
     System.out.println("Total value : " + sum_num);
+    
+    else if(sum_num > 7){
+    System.out.println(string + " won!");
+  }else{
+    System.out.println(string + " lost!");
+    }
 
   }
 }
