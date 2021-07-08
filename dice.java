@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class dice{
   public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("What is your name?");
+    String string = scanner.next();
+    System.out.println("Hello," + string + "!");
+
+    
     int ALL_SIDES = 6;
     System.out.println("Rolling the dice...");
     int x = 1 + (int) (Math.random() * ALL_SIDES);
